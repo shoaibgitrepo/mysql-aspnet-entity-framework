@@ -79,6 +79,10 @@
     <Compile Include="Migrations\202006280839590_AddDepartmentsTable.designer.cs">
       <DependentUpon>202006280839590_AddDepartmentsTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202101311036107_ApplyConstraints.cs" />
+    <Compile Include="Migrations\202101311036107_ApplyConstraints.designer.cs">
+      <DependentUpon>202101311036107_ApplyConstraints.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\User.cs" />
@@ -99,6 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202006280839590_AddDepartmentsTable.resx">
       <DependentUpon>202006280839590_AddDepartmentsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202101311036107_ApplyConstraints.resx">
+      <DependentUpon>202101311036107_ApplyConstraints.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
